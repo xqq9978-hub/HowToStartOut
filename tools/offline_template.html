@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>新人保护指南 · HowToStartOut｜离线阅读版</title>
+<meta name="description" content="新人保护指南：面向中国大陆毕业生与初入职场者的 14 章正文、附录 A—K 和本地搜索。">
+<style>
+:root{color-scheme:light;--bg:#f6f8f5;--paper:#fff;--soft:#edf4f1;--text:#1e303c;--muted:#5e6e76;--line:#dce5e4;--accent:#157564;--accent-deep:#0d594d;--peach:#fff0e7;--shadow:0 12px 38px rgba(24,55,58,.08);--code:#f0f4f5}
+html[data-theme="dark"]{color-scheme:dark;--bg:#121d22;--paper:#1b2a30;--soft:#20383a;--text:#edf5f2;--muted:#b0c2c0;--line:#33494b;--accent:#80d9bd;--accent-deep:#a9ead4;--peach:#3b302c;--shadow:0 12px 38px rgba(0,0,0,.2);--code:#263a3f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.78 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif}button,input{font:inherit}button{cursor:pointer}a{color:var(--accent-deep);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:3px}::selection{background:#a6e1d0;color:#12352e}
+.topbar{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--paper) 94%,transparent);border-bottom:1px solid var(--line);backdrop-filter:blur(16px)}.topbar-inner{max-width:1600px;margin:auto;min-height:68px;display:flex;align-items:center;gap:15px;padding:9px 24px}.brand{text-decoration:none;color:var(--text);font-weight:800;letter-spacing:.02em;white-space:nowrap;font-size:18px}.brand b{color:var(--accent-deep)}.top-search{margin-left:auto;max-width:470px;flex:1;position:relative}.top-search input{width:100%;height:42px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--text);padding:0 48px 0 42px}.top-search input::placeholder{color:var(--muted)}.top-search .glass{position:absolute;left:15px;top:10px;color:var(--muted);font-size:20px;line-height:1}.key{position:absolute;right:12px;top:9px;font-size:12px;border:1px solid var(--line);border-radius:5px;padding:0 6px;color:var(--muted)}.top-btn{border:1px solid var(--line);background:var(--paper);color:var(--text);border-radius:10px;padding:8px 12px;white-space:nowrap}.menu-btn{display:none}
+.layout{max-width:1600px;display:grid;grid-template-columns:300px minmax(0,1fr);gap:32px;margin:auto;padding:24px}.sidebar{position:sticky;top:92px;align-self:start;height:calc(100vh - 116px);overflow:auto;border:1px solid var(--line);background:var(--paper);border-radius:18px;box-shadow:var(--shadow);padding:18px}.sidebar::-webkit-scrollbar{width:8px}.sidebar::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}.nav-group-title{font-size:12px;font-weight:800;color:var(--muted);letter-spacing:.09em;margin:17px 8px 8px}.nav-group-title:first-child{margin-top:2px}.chapter-btn{width:100%;display:flex;align-items:start;text-align:left;gap:10px;border:0;border-radius:9px;background:transparent;color:var(--text);padding:8px 10px;font-size:14px;line-height:1.48}.chapter-btn:hover{background:var(--soft)}.chapter-btn[aria-current="page"]{background:var(--soft);color:var(--accent-deep);font-weight:750}.chapter-num{font-variant-numeric:tabular-nums;min-width:24px;font-weight:800;color:var(--accent)}.side-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 15px}.side-actions button{border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:9px;padding:6px 5px;font-size:13px}.side-note{margin:19px 7px 3px;color:var(--muted);font-size:12px;line-height:1.5}.main{min-width:0;max-width:1000px}.hero{background:var(--paper);border:1px solid var(--line);border-radius:21px;box-shadow:var(--shadow);overflow:hidden}.cover{width:100%;height:auto;display:block}.hero-copy{padding:24px 32px 26px}.eyebrow{margin:0 0 5px;color:var(--accent-deep);font-size:12px;font-weight:800;letter-spacing:.14em}.hero h1{margin:0;font-size:clamp(24px,3.4vw,38px);line-height:1.25;letter-spacing:-.025em}.hero p{margin:12px 0 0;color:var(--muted)}.facts{display:flex;gap:10px;flex-wrap:wrap;margin-top:17px}.fact{background:var(--soft);color:var(--accent-deep);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:650}.notice{border-left:4px solid var(--accent);background:var(--soft);color:var(--text);padding:14px 18px;border-radius:0 12px 12px 0;margin:20px 0 0;font-size:14px}.quick-links{display:flex;flex-wrap:wrap;gap:9px;margin:20px 0 22px}.quick-links button{border:1px solid var(--line);background:var(--paper);color:var(--accent-deep);border-radius:999px;padding:7px 15px;font-size:14px;font-weight:650}.quick-links button:hover{background:var(--soft)}.reader{background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:clamp(20px,4.2vw,52px);margin-bottom:24px}.reader-head{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:17px;margin-bottom:26px}.reader-head span{font-size:13px;color:var(--muted)}.reader-head button{border:0;background:var(--soft);color:var(--accent-deep);padding:7px 12px;border-radius:9px;font-size:13px}.doc-section[hidden],.search-panel[hidden]{display:none!important}.doc-section{max-width:820px;overflow-wrap:anywhere}.doc-section>h2:first-of-type{font-size:clamp(24px,3vw,32px);line-height:1.3;margin:0 0 20px}.doc-section h2{font-size:26px;line-height:1.35;margin:44px 0 19px;padding-top:4px;letter-spacing:-.01em}.doc-section h3{font-size:20px;line-height:1.42;margin:44px 0 18px;padding-top:18px;border-top:1px solid var(--line)}.doc-section h4{font-size:17px;margin:29px 0 10px}.doc-section p{margin:14px 0}.doc-section strong{font-weight:730}.doc-section blockquote{margin:18px 0;padding:13px 19px;background:var(--soft);border-left:3px solid var(--accent);border-radius:0 10px 10px 0}.doc-section blockquote p{margin:0}.doc-section hr{border:0;border-top:1px solid var(--line);margin:34px 0}.doc-section ul,.doc-section ol{padding-left:1.45em}.doc-section li{margin:.4em 0}.doc-section a[id]{display:block;position:relative;top:-86px;visibility:hidden}.doc-section p:has(>a[id]:only-child){margin:0;height:0}.doc-section table{border-collapse:collapse;width:100%;font-size:14px;margin:20px 0;display:block;overflow-x:auto}.doc-section th,.doc-section td{border:1px solid var(--line);padding:8px 11px;vertical-align:top;min-width:90px}.doc-section th{background:var(--soft);text-align:left}.doc-section tr:nth-child(even) td{background:color-mix(in srgb,var(--soft) 45%,var(--paper))}.doc-section code{background:var(--code);border-radius:4px;padding:.1em .3em;font-size:.9em}.doc-section pre{overflow:auto;background:var(--code);padding:15px;border-radius:11px}.doc-section pre code{background:none;padding:0}.doc-section details{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:12px 0}.doc-section summary{cursor:pointer;font-weight:650}.doc-section img{max-width:100%;height:auto}
+.search-panel{background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:24px;margin-bottom:22px}.search-top{display:flex;align-items:baseline;justify-content:space-between;gap:15px}.search-top h2{margin:0;font-size:22px}.search-top span{color:var(--muted);font-size:13px}.result-list{display:grid;gap:10px;margin-top:17px}.result{display:block;width:100%;text-align:left;border:1px solid var(--line);background:var(--paper);color:var(--text);border-radius:12px;padding:14px 16px}.result:hover{border-color:var(--accent);background:var(--soft)}.result small{display:block;color:var(--accent-deep);font-weight:700;margin-bottom:3px}.result b{display:block;font-size:16px;line-height:1.4}.result span{display:block;color:var(--muted);font-size:13px;line-height:1.5;margin-top:5px}.empty{color:var(--muted);padding:18px 0}.footer{color:var(--muted);font-size:13px;line-height:1.6;padding:0 6px 45px}.scrim{display:none}
+.reader-head-label{display:flex;flex-direction:column;gap:2px}.reader-head-label strong{font-size:16px;line-height:1.35}.reader-pager{display:grid;grid-template-columns:1fr 1fr;gap:12px;border-top:1px solid var(--line);padding-top:22px;margin-top:40px}.reader-pager[hidden]{display:none!important}.reader-pager button{display:flex;flex-direction:column;align-items:flex-start;gap:3px;border:1px solid var(--line);border-radius:13px;background:var(--paper);color:var(--text);padding:12px 16px;text-align:left;min-width:0}.reader-pager button:last-child{align-items:flex-end;text-align:right}.reader-pager button:hover{border-color:var(--accent);background:var(--soft)}.reader-pager button:disabled{opacity:.38;cursor:default}.reader-pager small{color:var(--muted);font-size:12px}.reader-pager b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%;font-size:14px}.reader-head button[data-go="intro"]{white-space:nowrap}
+@media(max-width:980px){.layout{grid-template-columns:250px minmax(0,1fr);gap:18px;padding:16px}.sidebar{padding:13px}.topbar-inner{padding:8px 16px}}
+@media(max-width:760px){.topbar-inner{gap:9px}.brand{font-size:15px}.top-search{min-width:0}.top-search input{font-size:14px}.key{display:none}.menu-btn{display:block}.top-btn{padding:7px 9px;font-size:13px}.layout{display:block;padding:12px}.sidebar{position:fixed;z-index:50;top:0;left:0;width:min(88vw,340px);height:100vh;border-radius:0 18px 18px 0;transform:translateX(-105%);transition:transform .22s;box-shadow:0 12px 55px #0005}.sidebar.open{transform:none}.scrim.open{display:block;position:fixed;inset:0;background:#0008;z-index:45}.hero-copy{padding:18px}.reader{padding:22px 18px}.doc-section h3{font-size:18px}.doc-section h2{font-size:23px}.search-panel{padding:18px}.quick-links{gap:7px}.quick-links button{font-size:13px}.reader-head{align-items:start}.cover{width:100%}}
+@media(max-width:420px){.brand{font-size:0}.brand b{font-size:17px}.top-btn{font-size:12px}.topbar-inner{gap:7px}.top-search input{padding-right:8px}.hero h1{font-size:24px}}
+@media print{.topbar,.sidebar,.scrim,.quick-links,.search-panel,.reader-head button,.reader-pager{display:none!important}.layout{display:block;padding:0}.main{max-width:none}.hero{border:0;box-shadow:none}.cover{max-height:240px;object-fit:contain}.reader{border:0;box-shadow:none;padding:0}.doc-section[hidden]{display:block!important}.doc-section{break-after:page}.doc-section a[id]{top:0}.footer{padding:0}}
+</style>
+<noscript><style>.doc-section[hidden]{display:block!important}.sidebar{position:static;height:auto;overflow:visible}.layout{display:block}.search-panel,.top-search{display:none!important}</style></noscript>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="top-btn menu-btn" id="menu" type="button" aria-label="打开章节目录" aria-expanded="false">☰</button>
+    <a class="brand" href="#section-intro"><b>HowToStartOut</b> · 新人保护指南</a>
+    <label class="top-search"><span class="glass" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索条目、场景或关键词" autocomplete="off" aria-label="搜索指南内容"><span class="key">/</span></label>
+    <button class="top-btn" id="theme" type="button" aria-label="切换深色或浅色模式">切换主题</button>
+  </div>
+</header>
+<div class="scrim" id="scrim"></div>
+<div class="layout">
+  <aside class="sidebar" id="sidebar" aria-label="章节目录">
+    <div class="side-actions"><button type="button" data-go="all">查看全文</button><button type="button" id="side-top">回到顶部</button></div>
+    <nav id="guide-toc">@@NAV@@</nav>
+    <p class="side-note">搜索在本机完成。阅读法律、政策或健康内容时，请查看条目中的适用条件与来源，并核对现行信息。</p>
+  </aside>
+  <main class="main">
+    <div class="hero" id="top">
+      <img class="cover" src="@@COVER@@" alt="新人保护指南封面：毕业第一年，没人教你的事；14 章正文、按问题查阅和附录 A—K">
+      <div class="hero-copy">
+        <p class="eyebrow">HOW TO START OUT · 离线阅读版</p>
+        <h1>毕业第一年，先把眼前的事弄清楚</h1>
+        <p>从第一份 offer 到第一份工资，也包括租房、沟通、身体和下一步。打开一节，找到现在能做的一步。</p>
+        <div class="facts"><span class="fact">14 章正文</span><span class="fact">附录 A—K</span><span class="fact">@@ITEM_COUNT@@ 个条目</span><span class="fact">无需联网</span></div>
+        <div class="notice">这份指南是查阅与自查材料，不替代具体专业意见。法律、地方政策和办事条件会变化；作重要决定前，请核对适用地区、时间、原文与例外。搜索不会把你输入的文字发送到服务器。</div>
+      </div>
+    </div>
+    <div class="quick-links" aria-label="快速开始">
+      <button type="button" data-jump="quick-12">先看十分钟要点</button>
+      <button type="button" data-jump="by-problem">按眼前问题查</button>
+      <button type="button" data-jump="first-year-timeline">第一年时间线</button>
+      <button type="button" data-go="all">展开全文</button>
+    </div>
+    <div class="search-panel" id="search-panel" hidden>
+      <div class="search-top"><h2>搜索结果</h2><span id="search-count"></span></div>
+      <div class="result-list" id="results"></div>
+    </div>
+    <article class="reader" id="reader">
+      <div class="reader-head"><div class="reader-head-label"><span id="page-count">第 1 / 26 页</span><strong id="view-label">阅读入口</strong></div><button type="button" data-go="intro">阅读目录</button></div>
+      @@SECTIONS@@
+      <nav class="reader-pager" id="reader-pager" aria-label="阅读翻页"><button type="button" id="prev-page" aria-label="上一页"><small>← 上一页</small><b id="prev-label"></b></button><button type="button" id="next-page" aria-label="下一页"><small>下一页 →</small><b id="next-label"></b></button></nav>
+    </article>
+    <div class="footer">本页是《新人保护指南》的独立离线副本：正文、搜索和封面都在这个 HTML 文件里。外部来源链接需联网才能打开。若需使用 AI 助手，请从 HowToStartOut 仓库另行安装 Skill 及 V6 知识库。</div>
+  </main>
+</div>
+<script>
+const records=@@INDEX@@;
+const sections=@@SEGMENTS@@;
+const search=document.getElementById('search');
+const panel=document.getElementById('search-panel');
+const results=document.getElementById('results');
+const count=document.getElementById('search-count');
+const sidebar=document.getElementById('sidebar');
+const menu=document.getElementById('menu');
+const pager=document.getElementById('reader-pager');
+const prevPage=document.getElementById('prev-page');
+const nextPage=document.getElementById('next-page');
+let current='intro';
+function closeMenu(){sidebar.classList.remove('open');document.getElementById('scrim').classList.remove('open');menu.setAttribute('aria-expanded','false')}
+function openMenu(){sidebar.classList.add('open');document.getElementById('scrim').classList.add('open');menu.setAttribute('aria-expanded','true')}
+function selectSection(id,scroll=true){
+  if(id!=='all'&&!sections.some(s=>s.id===id))id='intro';
+  current=id;
+  for(const section of document.querySelectorAll('.doc-section'))section.hidden=id!=='all'&&section.dataset.section!==id;
+  for(const button of document.querySelectorAll('.chapter-btn'))button.setAttribute('aria-current',button.dataset.go===id?'page':'false');
+  const index=sections.findIndex(s=>s.id===id);
+  document.getElementById('view-label').textContent=id==='all'?'全部内容':sections[index]?.name||'阅读入口';
+  document.getElementById('page-count').textContent=id==='all'?'14 章与附录 A—K':`第 ${index+1} / ${sections.length} 页`;
+  pager.hidden=id==='all';
+  prevPage.disabled=index<=0;
+  nextPage.disabled=index<0||index>=sections.length-1;
+  prevPage.dataset.go=index>0?sections[index-1].id:'';
+  nextPage.dataset.go=index>=0&&index<sections.length-1?sections[index+1].id:'';
+  document.getElementById('prev-label').textContent=index>0?sections[index-1].name:'已到起点';
+  document.getElementById('next-label').textContent=index>=0&&index<sections.length-1?sections[index+1].name:'已到末页';
+  closeMenu();
+  if(scroll)document.getElementById('reader').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function showAnchor(id){
+  if(id==='all'){selectSection('all');return}
+  if(id==='guide-toc'){
+    if(matchMedia('(max-width:760px)').matches)openMenu();
+    else sidebar.scrollTo({top:0,behavior:'smooth'});
+    return;
+  }
+  const target=document.getElementById(id);
+  if(!target)return;
+  const section=target.closest('.doc-section');
+  if(section)selectSection(section.dataset.section,false);
+  requestAnimationFrame(()=>target.scrollIntoView({behavior:'smooth',block:'start'}));
+}
+document.querySelectorAll('[data-go]').forEach(button=>button.addEventListener('click',()=>{
+  const id=button.dataset.go;
+  if(id==='all'){location.hash='all';showAnchor('all')}
+  else{const anchor=id==='intro'?'section-intro':id;location.hash=anchor;showAnchor(anchor)}
+}));
+for(const button of [prevPage,nextPage])button.addEventListener('click',()=>{
+  const id=button.dataset.go;
+  if(!id)return;
+  const anchor=id==='intro'?'section-intro':id;
+  location.hash=anchor;showAnchor(anchor);
+});
+document.querySelectorAll('[data-jump]').forEach(button=>button.addEventListener('click',()=>{const id=button.dataset.jump;location.hash=id;showAnchor(id)}));
+document.getElementById('reader').addEventListener('click',event=>{
+  const link=event.target.closest('a[href^="#"]');
+  if(!link)return;
+  const id=decodeURIComponent(link.getAttribute('href').slice(1));
+  if(!id)return;
+  event.preventDefault();location.hash=id;showAnchor(id);
+});
+window.addEventListener('hashchange',()=>showAnchor(decodeURIComponent(location.hash.slice(1))));
+menu.addEventListener('click',()=>sidebar.classList.contains('open')?closeMenu():openMenu());
+document.getElementById('scrim').addEventListener('click',closeMenu);
+document.getElementById('side-top').addEventListener('click',()=>{closeMenu();window.scrollTo({top:0,behavior:'smooth'})});
+const themeButton=document.getElementById('theme');
+function setTheme(theme){document.documentElement.dataset.theme=theme;themeButton.textContent=theme==='dark'?'浅色':'深色';try{localStorage.setItem('howtostartout-theme',theme)}catch(e){}}
+try{setTheme(localStorage.getItem('howtostartout-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+themeButton.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
+function excerpt(text,query){const lower=text.toLocaleLowerCase();const pos=lower.indexOf(query.toLocaleLowerCase());const start=Math.max(0,pos-48);const chunk=text.slice(start,start+145);return (start?'…':'')+chunk+(start+145<text.length?'…':'')}
+function runSearch(){
+  const query=search.value.trim();panel.hidden=!query;
+  if(!query){results.replaceChildren();return}
+  const words=query.toLocaleLowerCase().split(/\s+/).filter(Boolean);
+  const matches=records.filter(r=>{const hay=(r.title+' '+r.text).toLocaleLowerCase();return words.every(w=>hay.includes(w))}).sort((a,b)=>Number(b.title.toLocaleLowerCase().includes(query.toLocaleLowerCase()))-Number(a.title.toLocaleLowerCase().includes(query.toLocaleLowerCase())));
+  count.textContent=`找到 ${matches.length} 项`;
+  results.replaceChildren();
+  if(!matches.length){const empty=document.createElement('div');empty.className='empty';empty.textContent='没有找到。试试更短的关键词，或按章节浏览。';results.append(empty);return}
+  const fragment=document.createDocumentFragment();
+  for(const item of matches){
+    const button=document.createElement('button');button.type='button';button.className='result';
+    const group=document.createElement('small');group.textContent=item.group;
+    const title=document.createElement('b');title.textContent=item.title;
+    const snippet=document.createElement('span');snippet.textContent=excerpt(item.text,query);
+    button.append(group,title,snippet);
+    button.addEventListener('click',()=>{location.hash=item.id;showAnchor(item.id)});
+    fragment.append(button);
+  }
+  results.append(fragment);
+}
+let searchTimer;
+search.addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(runSearch,90)});
+document.addEventListener('keydown',event=>{
+  if(event.key==='/'&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){event.preventDefault();search.focus()}
+  if(event.key==='Escape'){if(document.activeElement===search){search.value='';runSearch();search.blur()}closeMenu()}
+});
+selectSection('intro',false);
+if(location.hash)showAnchor(decodeURIComponent(location.hash.slice(1)));
+</script>
+</body>
+</html>
